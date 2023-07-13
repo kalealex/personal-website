@@ -1921,7 +1921,7 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		text-align: center;
+		text-align: left;
 		padding: 2em;
 	}
 
@@ -1984,7 +1984,7 @@ input, select, textarea {
 		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 4em 0 2em 0;
-		text-align: center;
+		text-align: left;
 	}
 
 		.wrapper.style1 {
@@ -2008,6 +2008,7 @@ input, select, textarea {
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
+			text-align: center;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2193,7 +2194,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0 2em 0;
-				text-align: center;
+				text-align: left;
 			}
 
 				.wrapper.style4 .row-special {
@@ -2378,7 +2379,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
+				text-align: left;
 			}
 
 		/* Nav */
@@ -2460,6 +2461,7 @@ img.teaser {
 	top: 50%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	text-align: center;
   	/* top: 50%; */
 	/* margin-top: -90px; */
 }
