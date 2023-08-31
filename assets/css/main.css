@@ -2074,6 +2074,10 @@ input, select, textarea {
 			padding: 0 1.25em;
 		}
 
+			#nav a.dcl {
+				background: maroon;
+			}
+
 			#nav a:hover {
 				color: #fff !important;
 				background: #383838;
