@@ -1,8 +1,4 @@
-This repo contains the code for my personal website.
-
-Note to self, update website by using ssh to access server at:
-
-	<uw_id>@vergil.u.washington.edu 
+This repo contains the code for my personal website and the Data Cognition Lab website.
 
 Template information:
 
