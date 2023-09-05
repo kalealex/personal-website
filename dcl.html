@@ -5,7 +5,7 @@
 	<title>DCL</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/dcl.css" />
 </head>
 
 <body class="is-preload">
@@ -14,7 +14,7 @@
 	<nav id="nav">
 		<ul class="container">
 			<li><a href="#top">Top</a></li>
-			<li><a href="#about">About</a></li>
+			<!-- <li><a href="#about">About</a></li> -->
             <li><a href="#announce">Announcements</a></li>
 			<li><a href="#people">People</a></li>
 			<li><a href="#pubs">Publications</a></li>
@@ -26,15 +26,15 @@
 	<article id="top" class="wrapper style1">
 		<div class="container">
 			<div class="row">
-				<div class="col-4 col-2-large col-4-medium">
-					<center><span class="image fit"><img src="images/pic00.jpg" alt="" /></span></center>
+				<div class="col-4 col-4-large col-4-medium">
+					<center><span class="image fit"><img src="images/pic00.jpg" alt="" style="scale: 0.5;" /></span></center>
 				</div>
-				<div class="col-8 col-10-large col-8-medium">
+				<div class="col-8 col-8-large col-8-medium">
 					<header>
 						<h1><strong>Data Cognition Lab</strong></h1>
 					</header>
-                    <p>
-                        The Data Cognition Lab or DCL at the University of Chicago is a research team dedicated to creating 
+                    <p class="last">
+                        The DCL at the University of Chicago is a research team dedicated to creating 
                         and studying software for thinking with data.
                     </p>
 				</div>
@@ -45,29 +45,25 @@
 	<!-- About -->
 	<article id="about" class="wrapper style2">
 		<div class="container">
-			<header>
-				<h2>About the lab</h2>
-				<p>
-					Our mission is to explore how to design data visualization and analysis software in order to 
-                    support inferences, decisions, and value judgments about data. We investigate data science tools 
-                    through both (1) user-centered design of software for working with data and statistical models, and
-                    (2) experiments evaluating how people use visualizations to reason about data.
-                </p><br />
-                <p>
-                    Active areas of research include: software for visual data exploration and model interpretability;  
-                    interfaces for reasoning about decisions, fairness, and value judgments; strategic uses of visualization
-                    in collaborative and adversarial settings; visualization for causal inference. 
-				</p>
-			</header>
+			<h2>About the lab</h2>
+			<p>
+				Our mission is to explore how to design data visualization and analysis software in order to 
+				support inferences, decisions, and value judgments about data. We investigate data science tools 
+				through both (1) user-centered design of software for working with data and statistical models, and
+				(2) experiments evaluating how people use visualizations to reason about data.
+			</p>
+			<p class="last">
+				Active areas of research include: software for visual data exploration and model interpretability;  
+				interfaces for reasoning about decisions, fairness, and value judgments; strategic uses of visualization
+				in collaborative and adversarial settings; visualization for causal inference. 
+			</p>
 		</div>
 	</article>
 
     <!-- Announcements -->
     <article id="announce" class="wrapper style2">
 		<div class="container">
-			<header>
-				<h2>Announcements</h2>
-			</header>
+			<h2>Announcements</h2>
 			<div class="row aln-center">
 				<div class="col12" style="width: 100%;">
 					<section class="box style1">
@@ -95,77 +91,75 @@
     <!-- People -->
 	<article id="people" class="wrapper style2">
 		<div class="container">
-			<header>
-				<h2>People</h2>
-			</header>
-			<!-- <div class="row aln-center">
-				<div class="col12" style="width: 100%;">
+			<h2>People</h2>
+			<div class="row aln-center">
+				<div class="col4" style="width: 33%;">
 					<section class="box style1">
-						<h3>Recent and upcoming courses</h3>
-						<ul style="list-style: none;">
-							<li><b>Fall 2023.</b> DATA 23700. Visualization for Data Science.</li>
-							<li><b>Spring 2023.</b> DATA 22700. Data Visualization and Communication.</li>
-							<li><b>Winter 2023.</b> CMSC 31801. Topics in Data Science: Data Visualization.</li>
-							<li><b>Fall 2022.</b> CMSC 14100. Introduction to Computer Science I.</li>
-						</ul>
+						<center>
+							<h3>Alex Kale</h3>
+							<label>Principle Investigator</label>
+							<span class="image fit"><img src="images/headshot2018-2.jpeg" alt="" style="width: 90%;" /></span>
+						</center>
 					</section>
 				</div>
-			</div> -->
+				<div class="col4" style="width: 33%;">
+					<section class="box style1">
+						<center>
+							<h3>Danni Liu</h3>
+							<label>PhD Student</label>
+							<span class="image fit"><img src="images/pic00.jpg" alt="" style="width: 90%;" /></span>
+						</center>
+					</section>
+				</div>
+				<div class="col4" style="width: 33%;">
+					<section class="box style1">
+						<center>
+							<h3>Krisha Mehta</h3>
+							<label>PhD Student</label>
+							<span class="image fit"><img src="images/pic00.jpg" alt="" style="width: 90%;" /></span>
+						</center>
+					</section>
+				</div>
+			</div>
 		</div>
 	</article>
 
 	<!-- Publications -->
 	<article id="pubs" class="wrapper style2">
 		<div class="container">
-			<header>
-				<h2>Publications</h2>
-				<p>
-					Here are publications from the lab in reverse chronological order. See <a href="index.html">Alex Kale's website</a> 
-                    for information about his research prior to joining UChicago.
-				</p>
-			</header>
-			<!-- <div class="row wrapper style1 small-pad-tb">
-				<p class="left">
-					<strong>EVM: Incorporating Model Checking into Exploratory Visual Analysis</strong><br />
-					VIS 2023<br />
-					<b>Alex Kale</b>, Ziyang Guo, Xiao Li Qiao, Jeffrey Heer, and Jessica Hullman</p>
-				<div class="col-10 small-pad-tl">
-					<img class="teaser" src="images/evm-teaser-VIS.png" />
-					<caption>EVM (Exploratory Visual Modeling) integrates the ability to express and visually check regression
-						models into a drag-and-drop visual analytics interface. In a typical visual analytics workflow, (A and B)
-						analysts use visualizations to discover possible patterns of interest. With EVM's visual model checks, 
-						(C) analysts can rule out and compare of provisional data interpretations by scrutinizing the compatibility
-						of observed data with model predictions.
-					</caption>
+			<h2>Publications</h2>
+			<p>
+				Here are publications from the lab in reverse chronological order.
+			</p>
+			<section class="row aln-center box style1" style="width: 100%;">
+				<div class="col-2 small-pad-tl">
+					<span class="image fit"><img class="thumbnail" src="images/pic00.jpg" style="width: 100%;" /></span>
 				</div>
-				<div class="col-2 no-pad">
-					<div class="floating-links">
-						<a href="https://arxiv.org/pdf/2308.13024">pdf</a><br />
+				<div class="col-10 small-pad-tl">
+					<p>
+						<strong>EVM: Incorporating Model Checking into Exploratory Visual Analysis</strong><br />
+						VIS 2023<br />
+						Alex Kale, Ziyang Guo, Xiao Li Qiao, Jeffrey Heer, and Jessica Hullman.<br />
+						<a href="https://arxiv.org/pdf/2308.13024">pdf</a> 
 						<a href="https://github.com/MUCollective/evm/">github</a>
-					</div>
+					</p>
 				</div>
-			</div>
-			<div class="row wrapper style1 small-pad-tb">
-				<p class="left">
-					<strong>MetaExplorer: Facilitating Reasoning with Epistemic Uncertainty in Meta-analysis</strong><br />
-					CHI 2023<br />
-					<b>Alex Kale</b>, Sarah Lee, Terrance Goan, Elizabeth Tipton, and Jessica Hullman</p>
+			</section>
+		
+			<section class="row aln-center box style1" style="width: 100%;">
+				<div class="col-2 small-pad-tl">
+					<span class="image fit"><img class="thumbnail" src="images/pic00.jpg" style="width: 100%;" /></span>
+				</div>
 				<div class="col-10 small-pad-tl">
-					<img class="teaser" src="images/teaser_meta-explorer.png" />
-					<caption>MetaExplorer provides a guided process for literature review and meta-analysis with an emphasis 
-						on documenting sources of epistemic uncertainty and choosing how to address them during statistical 
-						inference. The workflow proceeds in stages from Scoping and literature review where MetaExplorer elicits 
-						information about each study, to Triage and study grouping where the user resolves sources of epistemic 
-						uncertainty, and finally to Meta-analysis where the user views results alongside contextualizing uncertainty. 
-					</caption>
-				</div>
-				<div class="col-2 no-pad">
-					<div class="floating-links">
-						<a href="https://arxiv.org/pdf/2302.04739">pdf</a><br />
+					<p>
+						<strong>MetaExplorer: Facilitating Reasoning with Epistemic Uncertainty in Meta-analysis</strong><br />
+						CHI 2023<br />
+						Alex Kale, Sarah Lee, Terrance Goan, Elizabeth Tipton, and Jessica Hullman<br />
+						<a href="https://arxiv.org/pdf/2302.04739">pdf</a> 
 						<a href="https://github.com/kalealex/meta-explorer">github</a>
-					</div>
+					</p>
 				</div>
-			</div> -->
+			</section>
 		</div>
 	</article>
 
@@ -197,7 +191,7 @@
 				<ul id="copyright">
 					<li>&copy; All rights reserved under <a href="http://html5up.net/license">CCA license</a>.</li>
 					<li>Template by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a></li>
-					<li>Content and design by members of the DCL</li>
+					<li>Content and design by the DCL</li>
 				</ul>
 			</footer>
 		</div>
