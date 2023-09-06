@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #fafafa;
 }
 
 ol, ul {
@@ -241,7 +242,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1200px;
+				width: 1300px;
 			}
 
 				.container.medium {
@@ -250,7 +251,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		/* @media screen and (max-width: 1280px) {
 
 			.container {
 				width: 960px;
@@ -260,7 +261,7 @@ input, select, textarea {
 					width: 720px;
 				}
 
-		}
+		} */
 
 		@media screen and (max-width: 980px) {
 
@@ -272,6 +273,10 @@ input, select, textarea {
 				.container.medium {
 					width: 75%;
 				}
+
+			.sidebar {
+				display: none !important;
+			}
 
 		}
 
@@ -285,6 +290,10 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
+			
+			.sidebar {
+				display: none !important;
+			}
 
 		}
 
@@ -1615,7 +1624,7 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section, article {
+	section {
 		margin-bottom: 3em;
 	}
 
