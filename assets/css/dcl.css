@@ -2147,6 +2147,22 @@ input, select, textarea {
 				color: inherit;
 			}
 
+		#announce h4 p {
+			line-height: normal;
+		}
+
+			#announce .box {
+				padding: 10px 20px 10px 20px;
+			}
+
+		.show-large {
+			display: block;
+		}
+
+		.show-small {
+			display: none;
+		}
+
 	#contact footer {
 		font-size: 0.9em;
 	}
@@ -2231,6 +2247,14 @@ input, select, textarea {
 					margin: 0;
 				}
 
+			.show-large {
+				display: block;
+			}
+
+			.show-small {
+				display: none;
+			}
+
 	}
 
 /* Medium */
@@ -2247,6 +2271,14 @@ input, select, textarea {
 				#top .image {
 					margin: 0 auto 2em auto;
 				}
+
+			.show-large {
+				display: block;
+			}
+
+			.show-small {
+				display: none;
+			}
 
 	}
 
@@ -2432,6 +2464,14 @@ input, select, textarea {
 				#top p {
 					font-size: 1em;
 				}
+
+			.show-large {
+				display: none;
+			}
+
+			.show-small {
+				display: block;
+			}
 
 			#contact footer {
 				margin: 0;
