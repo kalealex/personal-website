@@ -1,4 +1,4 @@
-This repo contains the code for my personal website and the Data Cognition Lab website.
+This repo contains the code for my personal website.
 
 Template information:
 
